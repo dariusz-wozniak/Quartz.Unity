@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>net452;netstandard2.0</TargetFrameworks>
+    <TargetFrameworks>net472;netstandard2.0</TargetFrameworks>
     <RootNamespace>Quartz.Unity</RootNamespace>
     <AssemblyName>Quartz.Unity</AssemblyName>
     <IsPackable>true</IsPackable>
@@ -35,10 +35,10 @@
   </PropertyGroup>
   
   <ItemGroup>
-    <PackageReference Include="Quartz" Version="3.0.7" />
-    <PackageReference Include="Unity.Container" Version="5.9.2" />
+    <PackageReference Include="Quartz" Version="3.4.0" />
+    <PackageReference Include="Unity.Container" Version="5.11.11" />
 
-    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0-beta2-18618-05" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All" />
   </ItemGroup>
   
 </Project>
